@@ -40,6 +40,8 @@ export const manufacturers = [
     "Toyota",
     "Volkswagen",
     "Volvo",
+    "Suzuki",
+    "Tata",
   ];
   
   export const yearsOfProduction = [
