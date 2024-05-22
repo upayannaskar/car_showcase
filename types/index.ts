@@ -24,8 +24,16 @@ export interface CarProps {
     drive: String;
     fuel_type: String;
     highway_mpg: number;
-    make: String;
-    model: String;
+    make: string;
+    model: string;
     transmission: string;
     year: number;
 }
+
+export interface FilterProps {
+    manufacturer?: string;
+    year?: number;
+    model?: string;
+    limit?: number;
+    fuel?: string;
+  }
